@@ -210,17 +210,3 @@ Request body:
 ```
 
 `researcher_id` değerinin veritabanında bulunan bir araştırmacıya ait olması gerekir.
-
-## Mülakatta Anlatılabilecek Noktalar
-
-Bu projeyi anlatırken aşağıdaki ifadeler kullanılabilir:
-
-- İlişkisel bir PostgreSQL veritabanı şeması tasarladım.
-- Tablolardaki kayıtları tanımlamak için primary key kullandım.
-- Bölüm, araştırmacı ve proje ilişkilerini foreign key kullanarak kurdum.
-- İlişkili verileri tek sonuçta döndürmek için SQL JOIN sorguları yazdım.
-- Proje sayısı ve toplam bütçe gibi sonuçlar için aggregate SQL sorguları kullandım.
-- Projeyi route, controller ve veritabanı bağlantı katmanlarına ayırdım.
-- Veritabanı yapılandırmasını kaynak koddan ayırmak için environment variable kullandım.
-- SQL injection riskini azaltmak için parametreli PostgreSQL sorguları kullandım.
-- API girişlerinde ID, durum, bütçe ve tarih doğrulamaları uyguladım.
